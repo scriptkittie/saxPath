@@ -75,9 +75,9 @@ public class RuleTest
 	public void ruleTestReadFromLargeFile() throws Exception
 	{
 		//Large File 1 GB size.
-		InputStream in = new FileInputStream("/home/none/testing/standard.xml"); 
-		XMLProcessor test = new XMLProcessor();
-		test.addRule(new RuleImpl("/site/regions/africa/item/location"));
-		test.process(in, true);
+//		InputStream in = new FileInputStream("/home/none/testing/standard.xml"); 
+//		XMLProcessor test = new XMLProcessor();
+//		test.addRule(new RuleImpl("/site/regions/africa/item/location"));
+//		test.process(in, true);
 	}
 }
