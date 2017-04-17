@@ -1,5 +1,6 @@
 ## saxPath
 
+[![Build Status](https://travis-ci.org/scriptkittie/saxPath.svg?branch=master)](https://travis-ci.org/scriptkittie/saxPath)
 
 ### Overview
 
