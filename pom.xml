@@ -6,9 +6,9 @@
 	<version>1.0.0</version>
 	<name>saxPath</name>
 	<url>https://github.com/scriptkittie/</url>
-	<description>API wrapper for querying band, album, and track data from bandcamp.com</description>
+	<description>A simple, fast asynchronous XML framework for parsing large XML files. </description>
 	<scm>
-		<url>https://github.com/scriptkittie/bandcamp-api.git</url>
+		<url>https://github.com/scriptkittie/saxPath.git</url>
 	</scm>
 	<licenses>
 		<license>
