@@ -42,7 +42,7 @@ Just add the following dependencies to your maven pom.xml
 
 All rules have to have an XPATH expression specified to be triggered when the SAX parser reaches that path in the XML.
 
-**Create A Rule**
+**Create a Rule**
 
 Below is the skeleton of a basic Rule 
 
@@ -84,7 +84,7 @@ import io.laniakia.rule.Rule;
 test.process(new ByteArrayInputStream(testXML.getBytes(StandardCharsets.UTF_8)), true);
 ```
 
-**Query SaxNode With XPATH Expression**
+**Query SaxNode with XPATH Expression**
 
 ```java
 import io.laniakia.rule.Rule;
@@ -96,7 +96,7 @@ public void processRule(SaxNode saxNode) throws Exception
 }
 ```
 
-**Query SaxNode LIST With XPATH Expression**
+**Query SaxNode LIST with XPATH Expression**
 
 ```java
 import io.laniakia.rule.Rule;
@@ -122,7 +122,7 @@ public void processRule(SaxNode saxNode) throws Exception
 }
 ```
 
-**Query Text of SaxNode By V2**
+**Query Text of SaxNode V2**
 
 This method of extracting text uses the XPath method of extracting Node text, rather than getting the Node value of each node.
 
