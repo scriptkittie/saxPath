@@ -64,9 +64,11 @@ public class RuleImpl extends Rule
 		//Do things here
 	}
 }
+```
 
-...
+Setup for Rule Usage
 
+```java
 String testXML = "<bookstore>ExcludeText<test>test</test><book>testingText<testing123></testing123></book></bookstore>";
 XMLProcessor test = new XMLProcessor();
 //Your XPATH expression to trigger this rule on goes here
